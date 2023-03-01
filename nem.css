@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Andada+Pro:wght@500&family=Archivo:ital,wght@1,600&family=Inter:wght@300;400;500&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Condensed:ital,wght@1,700&family=Roboto+Serif:opsz,wght@8..144,800&family=Roboto:ital,wght@0,700;0,900;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+#git{
+    text-align: center;
+    background-color: red;
+    color: #000;
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 21px;
+    outline: none;
+    border: #fff;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+
+.kasib-one{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    transition: 0.7s all;
+    display: none;
+    color: rgb(3, 243, 3);
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+input{
+    margin-top: 50px;
+    outline: none;
+}
+
+#inputText{
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 17px;
+    color: #000;
+    border: 1px solid orange;
+}
+
+
+#addToDo{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(17, 236, 17);
+    border: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#clearToDo{
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    border: #fff;
+    font-size: 16px;
+    color: #fff;
+    margin: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clearToDo:active{
+    background-color: #000;
+}
+
+#addToDo:active{
+    background-color: blue;
+}
+
+#tittle{
+    font-family: poppins;
+    font-size: 40px;
+}
+
+.paragraph-style{
+     color: purple;   
+     font-size: 26px;
+     cursor: pointer;
+     font-family: Poppins;
+     text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 20px;
+}
